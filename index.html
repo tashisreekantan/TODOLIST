@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+    <h1>Login Page</h1>
+    <div style="border: 1px solid black;" id="box">
+        <form id="login-form">
+            <div>
+              <label style="text-align: center; font-size: xx-large;" for="username-input">Username</label>
+              <input type="text" id="username-input" name="username">
+            </div>
+            <div>
+              <label id="usernam" style="text-align: center;font-size: xx-large;" for="password-input">Password</label>
+              <input type="password" id="password-input" name="password">
+            </div>
+            <div>
+              <button type="submit">Login</button>
+            </div>
+          </form>
+          <div id="error-box"></div>
+          <script src="login.js"></script>
+
+    </div>
+    
+  </body>
+</html>

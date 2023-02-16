@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    background-color: rgb(230, 221, 210);
+}
+#content{
+    text-align: center;
+    display: grid;
+}
+table{
+    text-align: center;
+    color: darkblue;
+}
